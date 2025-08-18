@@ -19,6 +19,11 @@ Stagging Enverment
 for the branch 
  git branch
  git branch -M main
+ git branch {branch name} [ this is for Creating a New branch]
+ git checkout { beanch name} [ Use for switch branch like main branch to { beanch name} ]
+ git status
+ git add "Developer_branch.txt"
+ 
 
 local file connect to the git 
  git remote add origin https://github.com/sheshpalsingh01/python_01.git
