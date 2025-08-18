@@ -23,6 +23,9 @@ for the branch
  git checkout { beanch name} [ Use for switch branch like main branch to { beanch name} ]
  git status
  git add "Developer_branch.txt"
+ git commit -m "message"
+ git push origin Developer 
+ git merge {branch name}
  
 
 local file connect to the git 
