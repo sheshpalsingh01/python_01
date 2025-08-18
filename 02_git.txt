@@ -1,0 +1,2 @@
+git restore --staged "new_file.txt" { this use for revert file}
+git reset "new_file.txt"
