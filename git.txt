@@ -31,3 +31,8 @@ For Restore the file
 
 Both file Goes on git
  git add .
+
+
+Git Clone 
+ Create a new folder or file
+ git clone https://github.com/sheshpalsingh01/python_01.git ( this link from git repo code section)
