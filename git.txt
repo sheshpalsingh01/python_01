@@ -1,0 +1,33 @@
+first of all 
+Create a Repo don't marked Readme file leave it only click on Create
+
+Command
+ git init 
+ dir
+Cheack globle config
+ git config --global user.name
+ git config --global user.email
+  
+  git status { Check for git status}
+  git add {file name eg.= xyz }
+  git status
+
+Stagging Enverment
+ git commit -m "this is message like first commit "
+ git status
+
+for the branch 
+ git branch
+ git branch -M main
+
+local file connect to the git 
+ git remote add origin https://github.com/sheshpalsingh01/python_01.git
+ git status
+ git remote -v 
+ git push origin main
+
+For Restore the file 
+ git restore {file name you want to restore}
+
+Both file Goes on git
+ git add .

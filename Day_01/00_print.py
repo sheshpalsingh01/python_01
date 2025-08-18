@@ -21,3 +21,4 @@ print("Hello", "World", end="!")  # prints Hello World!
 print("Hello", "World", sep="--", end="!")  # prints Hello--World!
 print("Hello", "World", sep="--", end="$$$", file=open("output.txt", "w"))  # prints Hello--World! to output.txt
 print("Hello", "World", sep="--", end="!", flush=True)  # prints Hello--World! and flushes the output buffer
+print("Hello", "World", sep="--", end="$$$", file=open("output.txt", "w"), flush=True)  # prints Hello--World! to output.txt and flushes the output buffer
