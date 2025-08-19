@@ -44,3 +44,8 @@ Both file Goes on git
 Git Clone 
  Create a new folder or file
  git clone https://github.com/sheshpalsingh01/python_01.git ( this link from git repo code section)
+
+See Last commit
+ git log 
+ q 
+ git log -p -3 [ these commit see last 3 commit]
