@@ -2,4 +2,43 @@ git restore --staged "new_file.txt" { this use for revert file}
 git reset "new_file.txt"
 
 
-For 
+resolving Git Branch Merge Conflict
+ Create a new repo
+ add README file
+ add .gitignore 
+ choose a license
+ 
+Clone Git [Terminal]
+ go inside folder and git clone https://github.com/sheshpalsingh01/Application01.git [Developer_A]
+ go inside folder and git clone https://github.com/sheshpalsingh01/Application01.git [Developer_B]
+
+Check Branch [go inside Application01]
+git branch
+git branch developer [Create a New developer Branch]
+git checkout developer [Switched to branch 'developer']
+git branch developer [create new branch developer]
+work in file 
+git add .
+git status
+git commit -m "description"
+git branch
+git merge developer
+
+
+Work with Developer_A
+ git branch developerb 
+ git checkout developerb
+ git branch
+ git status
+ git add .
+ git commit -m "developer b change in readme file"
+ git checkout main
+ git branch
+ git merge developerb
+ git push origin main {you get error don't vary}
+ git pull
+
+ clean file manully 
+ git add .
+ git commit -m "developer b story"
+ git push origin main
